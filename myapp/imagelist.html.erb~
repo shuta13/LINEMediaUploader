@@ -1,0 +1,5 @@
+<% if @images %>
+    <% @images.each do |image| %>
+        <%= image %>
+    <% end %>
+<% end %>
