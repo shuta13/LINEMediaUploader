@@ -5,8 +5,8 @@ require 'cloudinary'
 
 def client
   @client ||= Line::Bot::Client.new { |config|
-    config.channel_secret = '895063d94a3a1b9a62d9aad0b957f7f8'
-    config.channel_token = '8PZ0VDP3nOoKnjCekoR/kXgluzqFFvta0UKtmPyA0a1uHafFBspzO0fO7JKSSUxu9vZ6xM9EXs1mjjzxGF4mhy6VX/R3Tc+en2vyQymCT+j/WMTDcuYaH7HDEuAs6JfCqfQQA8Ywcm6eIAfOIF1o7AdB04t89/1O/w1cDnyilFU='
+    config.channel_secret = 'SECRET'
+    config.channel_token = 'TOKEN'
   }
 end
 
