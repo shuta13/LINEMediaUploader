@@ -11,7 +11,7 @@ def client
 end
 
 def upload(file)
-  result = Cloudinary::Uploader.upload(file, api_key: '421836929114675', api_secret: 'xy111Ul88mK0iUfEO6_vPW77E5Q', cloud_name: 'dpbbavoeq')
+  result = Cloudinary::Uploader.upload(file, api_key: 'KEY', api_secret: 'SECRET', cloud_name: 'NAME')
   return result['secure_url']
 end
 
