@@ -1,2 +1,3 @@
 # LINEMediaUploader
-Auto media uploader
+Auto media uploader<br>
+CloudinaryのAPIを叩くサーバー
