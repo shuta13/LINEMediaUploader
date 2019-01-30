@@ -1,3 +1,3 @@
 # LINEMediaUploader
 Auto media uploader<br>
-CloudinaryのAPIを叩くサーバー
+CloudinaryのAPIを叩くサーバーをRuby(Sinatra)で実装
